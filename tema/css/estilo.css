@@ -1,0 +1,90 @@
+body{
+    font-family:  Verdana, Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+   
+    
+}
+
+header{
+    background-color: #8B0A50;
+    color: #FFF;
+    padding: 15px 0;
+    display: flex;
+}
+
+header h1{
+    margin-left: 30px;
+    font-size: 1.4em;
+    float: left;
+}
+
+.pesquisa-rodape{
+    float: right;
+    margin: 0 auto;
+}
+
+header a {
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header  a:hover{
+    color: white;
+}
+
+/*CSS do Index.HTML*/
+
+main{
+    margin: 0 auto;
+    width: 940px;
+}
+
+form{
+    margin-top:  60px;   
+    font-weight: bold;
+    
+}
+
+
+.botaoenviar{
+    width: 20%;
+    padding: 20px o;
+    color: #FFF;
+    background: #8B0A50;
+    font-size: 18px;
+    font-weight: bold;
+    border:none;
+    border-radius: 15px;
+    transition: 1s all;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Configurações do Footer*/
+
+footer{
+   min-width: 600px;
+   min-width: 250px;
+}
+
+.fundo{
+    height: 200px;
+    background-image: url('imagens/back-foter.png');
+    background-repeat: repeat no-repeat;
+    text-align: center;
+    font-size: 0.9em;
+    min-width: 400px;
+    padding: 40px 0;
+}
+
+.texto-footer{
+   margin-top: 90px;
+   color: rgb(170, 145, 145);
+
+}
+
+tr{
+    margin: 0 auto;
+}
